@@ -20,11 +20,13 @@ num1 = input("put namber1:")
 num2 = input("put namber2:")
 num3 = input("put namber3:")
 print(num1 + num2 + num3)
+
 num1 = input("put namber1:")
 num2 = input("put namber2:")
 num3 = input("put namber3:")
 
 print(num1 - num2 - num3)
+
 num1 = input("put namber1:")
 num2 = input("put namber2:")
 num3 = input("put namber3:")
