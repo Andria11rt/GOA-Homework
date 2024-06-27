@@ -25,24 +25,24 @@ print(10234 > 5)
 print(3323 > 3)
 
 print(10 < 5)
-print(10 < 5)
-print(10 < 5)
-print(10 < 5)
-print(10 < 5)
-print(10 < 5)
-print(10 < 5)
-print(10 < 5)
-print(10 < 5)
-print(10 < 5)
+print(1009 < 578)
+print(1087 < 589)
+print(100 == 98)
+print(5 == 5)
+print(1009 >= 556)
+print(102 <= 55)
+print(110 < 5)
+print(1023 < 534)
+print(100 < 53)
 print(33 < 3)
 
 #2) დაწერეთ პროგრამა, რომელიც იღებს ორი ადამიანის ასაკს და განსაზღვრავს ვინ არის უფროსი.
 
-age1 = input("First user age: ")
-age2 = input("Second user age: ")
+age1 = input("First user age:")
+age2 = input("Second user age:")
 print(age1 < age2)
-
-
+print(age1 > age2)
+print(age1 == age2)
 
 
 
