@@ -35,4 +35,9 @@ for i in range(2,21):
 # თქვენი დავალება იქნება ის, რომ მომხამრებელს შემოატანინოთ რიცხვი და თქვენ უნდა გამოიცნოთ ეს რიცხვი,
 # ხოლო ყოველ არ გამოცნობილ რიცხვზე ისევ თავიდან უნდა შეგეკითხოთ და შეიყვანოთ რიცხვი.
 
-# ?
+number = int(input("Enter number:"))
+
+guess_number = int(input("Guess the number:"))
+
+while number != guess_number:
+    guess_again_number = int(input("Guess again the namber:"))
