@@ -19,16 +19,16 @@ for i in range(126,0,-3):
 #  გამოიყენეთ ( + )ოპერატორი, ხოლო შემდეგ განახორციელეთ იგივე რამ, ( * ) - ოპერატორზე.
 
 
-total = 1
-for i in range(1,10):
+total = 0
+for i in range(1,47):
     total+=1
 
     print(total)
 
 
 
-total = 1
-for i in range(1,10):
+total = 0
+for i in range(1,47):
     total*=1
 
     print(total)
@@ -41,5 +41,5 @@ for i in range(1,10):
 
 count = 1
 while count <= 100:
-    count += 1
+    count -= 1
     print(count)
