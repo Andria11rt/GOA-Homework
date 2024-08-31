@@ -24,6 +24,6 @@
 
 # დავალება: შექმენით ფუნქცია რომელიც ადიდებს მხოლოდ 1 ასოს,  გამიყენეთ სლაისინგი.
 
-name = "andria"
+# name = "andria"
 
-print(name.capitalize())
+# print(name.capitalize())
