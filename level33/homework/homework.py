@@ -17,12 +17,34 @@
 # ჩაწერეთ კოდი, რომ გამოიძახოთ ფუნქცია სხვადასხვა ოპერაციებით და დაბეჭდოთ შედეგები.
 
 
-num1 = int(input("Enter number:"))
+num1 = float(input("Enter number:"))
 
-num2  = int(input("Enter number:"))
+num2  = float(input("Enter number:"))
 
+do = input("Enter your choice of calculetion:")
 
-def simple_calculator(num1, num2):
-    print(num1 + num2)
+def simple_calculator(num1,num2,do):
+    
+ if do == "-":
 
-simple_calculator(num1, num2)
+    oper = num1 - num2
+    print(oper)
+
+ elif do == "+":
+
+    oper = num1 + num2
+    print(oper)
+
+ elif do =="*":
+
+    oper = num1 * num2
+    print(oper)
+
+ elif do =="/":
+    oper = num1 / num2
+    print(oper)
+
+ else:
+    print("wrong inpyt try again:")
+
+simple_calculator(num1, num2, do)
