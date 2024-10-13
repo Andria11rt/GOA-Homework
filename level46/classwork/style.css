@@ -1,0 +1,22 @@
+
+.maindiv{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 400px;
+    margin-left: 500px;
+    border: 1px solid black;
+}
+.name{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: green;
+}
+
+.lastname{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: green;
+}
