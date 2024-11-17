@@ -57,5 +57,9 @@ main{
 
    /* flex-basis: 300px; */
 
-   flex-shrink: 5;
+   /* flex-shrink: 5; */
+/* grow(1)  (2)shrink  (3)basis */
+  /* flex: 1 5 o; */
+
+   /* order: -1; */
 }
