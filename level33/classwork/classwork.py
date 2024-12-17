@@ -18,6 +18,7 @@
      # print(i)
 
 
+
 # way 2 - with function
 
 # def counts_num():
